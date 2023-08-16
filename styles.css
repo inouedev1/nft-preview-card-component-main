@@ -1,0 +1,132 @@
+body{
+    width:1440px;
+    background-color: hsl(217, 54%, 11%);
+    color:white;
+    font-family: "Overpass";
+}
+
+#card{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    text-align: left;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#equilibrium{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#card p,h1 {
+    margin-left: 25px;
+}
+
+#card h1{
+    font-size: 18px;
+}
+
+#card h1:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
+}
+
+p{
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+#eth{
+    color:hsl(178, 100%, 50%);}
+
+#grid1 {
+    display: flex;
+}
+
+.item1{
+    margin-left: 25px;
+    
+}
+
+.item2{
+    margin-left: 80px;
+}
+
+.item1 p{
+    margin-top: -20px;
+    font-size: 13px;
+}
+
+.item2 p{
+    margin-top: -20px;
+    font-size: 13px;
+}
+
+#linebreak{
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#grid2 {
+    display:flex;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+#grid2 img{
+    width:15%;
+    height:15%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#grid2 a:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+
+.overlay{
+    background-color:hsl(178, 100%, 50%) ;
+    position: absolute;
+    opacity: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: -255px;
+    margin-left: 25px;
+    
+
+}
+
+.overlay:hover{
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+#eye{
+    position: absolute;
+    text-align: center;
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin-top: -150px;
+    margin-left: 125px;
+  }
+
+.overlay:hover + #eye{
+    display: block;
+}
+
+@media (max-width: 760px) {
+    body{
+        width: 375px;
+        margin-top: 50px;
+    }}
